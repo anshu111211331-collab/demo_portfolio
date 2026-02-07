@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beginner Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav">
+        <div class="logo">Alex&nbsp;Rivers</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </nav>
+
+      <div class="hero-content">
+        <div>
+          <p class="eyebrow">Beginner Front-End Developer</p>
+          <h1>
+            I build friendly, clean web experiences that feel welcoming and easy to use.
+          </h1>
+          <p class="subhead">
+            I am learning HTML, CSS, and JavaScript by building real projects. My focus is on
+            clarity, consistency, and purposeful design.
+          </p>
+          <div class="cta-group">
+            <a class="primary" href="#projects">View Projects</a>
+            <a class="secondary" href="#contact">Let's Connect</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Currently Learning</h2>
+          <ul>
+            <li>Responsive layouts</li>
+            <li>Accessible design</li>
+            <li>JavaScript basics</li>
+          </ul>
+          <div class="availability">
+            <span class="dot"></span>
+            Open to beginner-friendly opportunities
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="about">
+        <div class="section-title">
+          <p>About</p>
+          <h2>Curious, consistent, and excited to grow.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I am a self-taught developer who loves learning by doing. My portfolio highlights
+            small, focused projects that show progress in layout, styling, and interaction.
+          </p>
+          <div class="about-highlight">
+            <h3>What I value</h3>
+            <ul>
+              <li>Clear communication</li>
+              <li>Simple, modern design</li>
+              <li>Thoughtful user journeys</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="projects">
+        <div class="section-title">
+          <p>Projects</p>
+          <h2>Small builds with big learning moments.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Daily Planner</h3>
+            <p>
+              A simple schedule layout that highlights tasks, priorities, and progress through
+              the day.
+            </p>
+            <span>HTML / CSS</span>
+          </article>
+          <article class="card">
+            <h3>Recipe Finder</h3>
+            <p>
+              A beginner-friendly recipe interface with search and clean typography for easy
+              reading.
+            </p>
+            <span>HTML / CSS / JS</span>
+          </article>
+          <article class="card">
+            <h3>Study Dashboard</h3>
+            <p>
+              A compact dashboard concept that surfaces key study stats and encourages focus.
+            </p>
+            <span>HTML / CSS</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-title">
+          <p>Skills</p>
+          <h2>Tools and topics I am practicing.</h2>
+        </div>
+        <div class="pill-grid">
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Responsive Design</span>
+          <span>Flexbox &amp; Grid</span>
+          <span>JavaScript Basics</span>
+          <span>Accessibility</span>
+        </div>
+      </section>
+
+      <section class="section alt" id="contact">
+        <div class="section-title">
+          <p>Contact</p>
+          <h2>Let’s build something together.</h2>
+        </div>
+        <div class="contact-card">
+          <p>
+            If you are looking for a motivated beginner who enjoys learning, feel free to reach
+            out.
+          </p>
+          <div class="contact-actions">
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <button type="button" class="copy-btn" data-email="hello@example.com">
+              Copy Email
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with curiosity • <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
